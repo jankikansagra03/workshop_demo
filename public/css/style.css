@@ -1,0 +1,11 @@
+body {
+    background-image: url('../images/logo_black.png');
+    /* background-image: url('{{ asset("images/logo_black.png") }}'); */
+}
+
+a.active {
+    background-color: white;
+    color: black !important;
+    border-radius: 5px;
+
+}
