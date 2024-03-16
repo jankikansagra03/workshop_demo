@@ -19,6 +19,12 @@ use App\Http\Controllers\GuestController;
 
 Route::get("/", [GuestController::class, 'index']);
 Route::get("/home", [GuestController::class, 'index']);
-Route::get("/signin", [GuestController::class, 'login']);
+Route::get("/signin", [GuestController::class, 'login123q1222']);
 Route::get("/signup", [GuestController::class, 'register']);
 Route::get("/gallery", [GuestController::class, 'gallery']);
+
+Route::get('login123', [GuestController::class, 'login123123']);
+
+Route::get('form_submit', [GuestController::class, 'login_submit']);
+
+Route::post('register_submit', [GuestController::class, 'register_form_submit']);
